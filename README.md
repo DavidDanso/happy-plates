@@ -1,4 +1,4 @@
-# HAPPY PLATES☺️
+# HAPPY PLATES 🥗
 
 ## Project Description
 
