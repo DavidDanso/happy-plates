@@ -1,0 +1,83 @@
+/* Fonts */
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: "eina01-bold";
+  src: url("../../fonts/eina01-bold.woff2");
+}
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: "NeueHaasUnicaW1G-Light";
+  src: url("../../fonts/NeueHaasUnicaW1G-Light.woff2");
+}
+.page-content {
+  --main-color: #eeeff4;
+  --text-color: #27282c;
+  --header-font: "eina01-bold";
+  --text-font: "NeueHaasUnicaW1G-Light";
+}
+
+/************************ Modal-Section *****************************/
+#modal .modal-content {
+  border: 1px solid transparent;
+}
+#modal .modal-body {
+  padding: 0%;
+}
+#modal .modal .modal-header {
+  border-bottom: transparent;
+}
+#modal .banner {
+  width: 100%;
+  object-fit: cover;
+  height: 440px;
+  margin-top: -1%;
+}
+#modal .info {
+  width: 3%;
+  margin-left: 3%;
+  margin-bottom: 2%;
+}
+#modal h1 {
+  color: var(--text-color);
+  letter-spacing: 1px;
+  font-family: var(--header-font);
+  font-size: 4vh;
+  padding: 3%;
+}
+#modal h1 span {
+  float: right;
+  font-family: var(--text-font);
+  font-size: 1.9vh;
+  margin-top: 2%;
+}
+#modal p {
+  color: var(--text-color);
+  letter-spacing: 1px;
+  font-family: var(--text-font);
+  line-height: 1.4;
+  font-size: 2.2vh;
+  padding: 3%;
+  margin-top: -4%;
+}
+/********************** Extra small devices (portrait phones, less than 576px) ****************************/
+@media (max-width: 575.98px) {
+}
+/************************ Small devices (landscape phones, 576px and up) *****************************/
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+/***************************** Medium devices (tablets, 768px and up) ********************************/
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+/********************************** Large devices (desktops, 992px and up) *********************************/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+/************************ Extra large devices (large desktops, 1200px and up) ********************************/
+@media (min-width: 1200px) {
+  /****** employees-Section ******/
+}
+
+/************************ Extra large devices (extra large desktops, 1900px and up) ********************************/
+@media (min-width: 2000px) {
+}

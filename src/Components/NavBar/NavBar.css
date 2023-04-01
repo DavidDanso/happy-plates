@@ -1,0 +1,103 @@
+/* Fonts */
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: "eina01-bold";
+  src: url("../../fonts/eina01-bold.woff2");
+}
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: "NeueHaasUnicaW1G-Light";
+  src: url("../../fonts/NeueHaasUnicaW1G-Light.woff2");
+}
+.page-content {
+  --main-color: #eeeff4;
+  --text-color: #27282c;
+  --header-font: "eina01-bold";
+  --text-font: "NeueHaasUnicaW1G-Light";
+}
+
+/************************ NavBar-Section *****************************/
+#mainNav {
+  background-color: #bcbd80;
+  margin-bottom: 5%;
+  border: transparent;
+}
+.main_navbar .logo {
+  width: 50px;
+}
+.main_navbar #bookmark_saved {
+  position: absolute;
+  top: 0;
+}
+.main_navbar .red_icon {
+  width: 10px;
+}
+.main_navbar .bookmark_img {
+  width: 25px;
+}
+#form_container {
+  display: flex;
+  border: 1px solid var(--text-color);
+  border-radius: 25px;
+}
+.main_navbar .search_icon {
+  width: 23px;
+  margin-left: 4%;
+}
+.main_navbar input {
+  color: var(--text-color);
+  letter-spacing: 1px;
+  font-family: var(--text-font);
+  font-size: 1.8vh;
+  background-color: transparent;
+  border: transparent;
+  margin-left: -3%;
+}
+.main_navbar input:focus {
+  box-shadow: none !important;
+  outline: 0px !important;
+  color: var(--text-color);
+  background-color: transparent;
+}
+.main_navbar input::placeholder {
+  color: #4d4d4dad;
+  font-size: 1.6vh;
+}
+.main_navbar button {
+  background-color: transparent;
+  color: #1155cc;
+  letter-spacing: 1px;
+  font-family: var(--text-font);
+  font-size: 2.1vh;
+  transition: all 0.5s ease-in-out;
+}
+.main_navbar button span {
+  border-bottom: 1px solid #1155cc;
+}
+.main_navbar button:hover {
+  color: #1156cc61;
+  transition: all 0.5s ease-in-out;
+}
+
+/********************** Extra small devices (portrait phones, less than 576px) ****************************/
+@media (max-width: 575.98px) {
+}
+/************************ Small devices (landscape phones, 576px and up) *****************************/
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+/***************************** Medium devices (tablets, 768px and up) ********************************/
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+/********************************** Large devices (desktops, 992px and up) *********************************/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+/************************ Extra large devices (large desktops, 1200px and up) ********************************/
+@media (min-width: 1200px) {
+  /****** employees-Section ******/
+}
+
+/************************ Extra large devices (extra large desktops, 1900px and up) ********************************/
+@media (min-width: 2000px) {
+}
